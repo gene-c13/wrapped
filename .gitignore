@@ -1,0 +1,27 @@
+# Your private Spotify data — NEVER commit this
+data/
+*.json
+!package.json
+
+# API keys and secrets
+.env
+.env.*
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
