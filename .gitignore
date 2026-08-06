@@ -2,12 +2,19 @@
 data/
 *.json
 !package.json
+# ...but DO track the small fake sample used for testing the loader
+!sample_data/
+!sample_data/*.json
 
 # API keys and secrets
 .env
 .env.*
 !.env.example
 *.secret
+
+# Spotify OAuth token cache (contains a refresh token — keep private)
+.cache
+.cache-*
 
 # Python
 __pycache__/
